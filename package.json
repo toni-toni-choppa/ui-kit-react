@@ -16,7 +16,7 @@
   "keywords": [],
   "author": "",
   "license": "MDL-2.0",
-  "type": "commonjs",
+  "type": "module",
   "bugs": {
     "url": "https://github.com/toni-toni-choppa/ui-kit-react/issues"
   },
