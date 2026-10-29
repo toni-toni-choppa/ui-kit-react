@@ -1,0 +1,30 @@
+.code-block {
+    background: var(--gray-100);
+    border-radius: 4px;
+    padding: 12px;
+}
+
+.code-block-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.code-block-header small {
+    font-weight: var(--text-weight-body);
+}
+
+.copy-button {
+    background: none;
+    border: none;
+    border-radius: 4px;
+    padding: 2px 4px;
+    cursor: pointer;
+}
+
+.code-block pre {
+    margin: 0;
+    overflow-x: auto;
+    font-weight: var(--text-weight-code);
+}
