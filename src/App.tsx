@@ -1,4 +1,5 @@
 import { CodeBlock, Divider, Input, Layout, Table, TableBody, TableCell, TableHead, TableHeader, TableRow, Text } from './components'
+import Button from './components/Button'
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
 
       <Layout.Section>
         <Text.Heading>Text</Text.Heading>
+        <Text.Display>Display</Text.Display>
         <Text.Title>Title</Text.Title>
         <Text.Heading>Heading</Text.Heading>
         <Text.Subheading>Subheading</Text.Subheading>
@@ -19,6 +21,14 @@ function App() {
         <Text.Caption>Caption</Text.Caption>
         <Text.Code>Inline code</Text.Code>
       </Layout.Section>
+
+      <Divider />
+
+      <Text.Heading>Button</Text.Heading>
+
+      <Button label="Click me" variant="primary"></Button>
+      <Button label="Click me" variant="secondary"></Button>
+      <Button label="Click me" variant="tertiary"></Button>
 
       <Divider />
 

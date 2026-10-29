@@ -4,16 +4,20 @@ type TextProps = {
     children: React.ReactNode
 };
 
-function Title({ children }: TextProps) {
+function Display({ children }: TextProps) {
   return <h1>{children}</h1>
 } 
 
-function Heading({ children }: TextProps) {
+function Title({ children }: TextProps) {
   return <h2>{children}</h2>
 } 
 
-function Subheading({ children }: TextProps) {
+function Heading({ children }: TextProps) {
   return <h3>{children}</h3>
+} 
+
+function Subheading({ children }: TextProps) {
+  return <h4>{children}</h4>
 } 
 
 function Body({ children }: TextProps) {
@@ -33,6 +37,7 @@ function InlineCode({ children }: TextProps) {
 }
 
 export const Text = {
+  Display,
   Title,
   Heading,
   Subheading,

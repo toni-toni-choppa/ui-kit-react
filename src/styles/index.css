@@ -10,17 +10,26 @@ html, body {
     font-family: var(--text-font-family-sans);
 }
 
+h1, h2, h3, h4, p, small {
+    color: var(--gray-950);
+}
+
 h1 {
-    font-size: var(--text-size-title);
-    font-weight: var(--text-weight-title);
+    font-size: var(--text-size-display);
+    font-weight: var(--text-weight-display);
 }
 
 h2 {
-    font-size: var(--text-size-heading);
+    font-size: var(--text-size-title);
     font-weight: var(--text-weight-heading);
 }
 
 h3 {
+    font-size: var(--text-size-heading);
+    font-weight: var(--text-weight-heading);
+}
+
+h4 {
     font-size: var(--text-size-subheading);
     font-weight: var(--text-weight-subheading);
 }

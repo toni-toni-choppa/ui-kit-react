@@ -4,7 +4,8 @@
     --text-font-family-mono: 'Roboto Mono', monospace;
     
     /* Text - Sizes */
-    --text-size-title: 2rem;
+    --text-size-display: 2rem;
+    --text-size-title: 1.75rem;
     --text-size-heading: 1.5rem;
     --text-size-subheading: 1.25rem;
     --text-size-body: 1rem;
@@ -12,19 +13,42 @@
     --text-size-code: 0.875rem;
 
     /* Text - Weights */
-    --text-weight-title: 700;
+    --text-weight-display: 700;
+    --text-weight-title: 650;
     --text-weight-heading: 600;
     --text-weight-subheading: 600;
     --text-weight-body: 400;
-    --text-weight-small: 400;
-    --text-weight-code: 400;
+    --text-weight-small: 350;
+    --text-weight-code: 350;
+
+    /* Color */
+    --gray-50:  #ffffff;
+    --gray-100: #f3f3f3;
+    --gray-150: #e7e7e7;
+    --gray-200: #dbdbdb;
+    --gray-250: #cfcfcf;
+    --gray-300: #c3c3c3;
+    --gray-350: #b7b7b7;
+    --gray-400: #ababab;
+    --gray-450: #9f9f9f;
+    --gray-500: #939393;
+    --gray-550: #878787;
+    --gray-600: #7b7b7b;
+    --gray-650: #6f6f6f;
+    --gray-700: #636363;
+    --gray-750: #575757;
+    --gray-800: #4b4b4b;
+    --gray-850: #3f3f3f;
+    --gray-900: #333333;
+    --gray-950: #222222;
 }
 
 @media screen and (min-width: 1024px) {
     :root {
-        --text-size-title: 2.5rem;
-        --text-size-heading: 2rem;
-        --text-size-subheading: 1.5rem;
+        --text-size-display: 2.5rem;
+        --text-size-title: 2rem;
+        --text-size-heading: 1.5rem;
+        --text-size-subheading: 1.25rem;
         --text-size-body: 1rem;
         --text-size-small: 0.875rem;
         --text-size-code: 0.875rem;
