@@ -1,0 +1,20 @@
+.text-input, .select-input {
+    border: 1px solid transparent;
+    background: var(--gray-200);
+    border-radius: 4px;
+    padding: 8px;
+    font-family: var(--text-font-family-sans);
+    font-size: var(--text-size-small);
+    font-weight: var(--text-weight-body);
+    transition: background 0.1s, border 0.1s;
+}
+
+.text-input:active, .text-input:focus-visible,
+.select-input:active, .select-input:focus-visible {
+    outline: none;
+}
+
+.text-input:focus, .select-input:focus {
+    background: none;
+    border: 1px solid var(--gray-300);
+}

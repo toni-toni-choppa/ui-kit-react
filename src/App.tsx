@@ -36,7 +36,7 @@ function App() {
         <Text.Heading>Input</Text.Heading>
 
         <Text.Subheading>Text</Text.Subheading>
-        <Input.Text placeholder="Type here" />
+        <Input.Text placeholder="Type here" id="text-input" />
 
         <Text.Subheading>Range</Text.Subheading>
         <Input.Range min={0} max={100} defaultValue={50} />
