@@ -5,6 +5,10 @@ function Main(props: ComponentProps<'main'>) {
   return <main className="main" {...props} />
 }
 
+function Content(props: ComponentProps<'div'>) {
+  return <div className="content" {...props} />
+}
+
 function Header(props: ComponentProps<'header'>) {
   return <header className="header" {...props} />
 }
@@ -37,4 +41,5 @@ export const Layout = {
   Aside,
   Section,
   Container,
+  Content,
 }
