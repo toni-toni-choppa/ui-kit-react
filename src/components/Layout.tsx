@@ -1,31 +1,32 @@
 import type { ComponentProps } from 'react'
+import '@/styles/layout.css'
 
 function Main(props: ComponentProps<'main'>) {
-  return <main {...props} />
+  return <main className="main" {...props} />
 }
 
 function Header(props: ComponentProps<'header'>) {
-  return <header {...props} />
+  return <header className="header" {...props} />
 }
 
 function Footer(props: ComponentProps<'footer'>) {
-  return <footer {...props} />
+  return <footer className="footer" {...props} />
 }
 
 function Nav(props: ComponentProps<'nav'>) {
-  return <nav {...props} />
+  return <nav className="nav" {...props} />
 }
 
 function Aside(props: ComponentProps<'aside'>) {
-  return <aside {...props} />
+  return <aside className="aside" {...props} />
 }
 
 function Section(props: ComponentProps<'section'>) {
-  return <section {...props} />
+  return <section className="section" {...props} />
 }
 
 function Container(props: ComponentProps<'div'>) {
-  return <div {...props} />
+  return <div className="container" {...props} />
 }
 
 export const Layout = {

@@ -1,6 +1,7 @@
 .table {
     border-collapse: collapse;
     font-size: var(--text-size-small);
+    width: 100%;
 }
 
 .table-head {
@@ -8,7 +9,7 @@
     font-weight: var(--text-weight-subheading);
     font-family: var(--text-font-family-sans);
     text-align: left;
-    padding: 4px;
+    padding: 8px;
 }
 
 .table-header .table-row {
@@ -34,5 +35,5 @@
 }
 
 .table-cell {
-    padding: 4px;
+    padding: 8px;
 }
