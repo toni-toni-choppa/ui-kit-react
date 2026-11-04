@@ -38,5 +38,6 @@
 }
 
 .small {
+    height: 32px;
     padding: 4px 8px;
 }

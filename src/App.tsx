@@ -1,5 +1,5 @@
 import { CodeBlock, Divider, Input, Layout, Table, TableBody, TableCell, TableHead, TableHeader, TableRow, Text } from './components'
-import Button from './components/Button'
+import { Button } from './components/Button'
 import '@/styles/layout.css'
 
 function App() {
@@ -11,12 +11,13 @@ function App() {
 
       <Layout.Content>
         <Layout.Header>
-          <Button label="Sidebar" variant="tertiary" size="small" onClick={() => {
+          <Button icon="sidebar" variant="tertiary" size="small" onClick={() => {
             const aside = document.querySelector('.aside');
             if (aside) {
               aside.classList.toggle('hidden');
             }
           }} />
+          <Text.Caption>Title</Text.Caption>
         </Layout.Header>
 
         <Layout.Main>
